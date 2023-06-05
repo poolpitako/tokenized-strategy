@@ -294,9 +294,8 @@ contract TokenizedStrategy {
 
     // Address of the previously deployed Vault factory that the
     // protocl fee config is retrieved from.
-    // NOTE: This will be set to deployed factory. deterministic address for testing is used now
     address private constant FACTORY =
-        0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f;
+        0x85E2861b3b1a70c90D28DfEc30CE6E07550d83e9;
 
     /**
      * @dev Custom storgage slot that will be used to store the
